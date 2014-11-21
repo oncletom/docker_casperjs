@@ -3,14 +3,14 @@
 ## Contains
 
 * Ubuntu 14.04
-* phantomjs 1.9.8
+* phantomjs 2.0.0
 * casperjs 1.1-beta3
 * example test
 
 
 ## Usage in next layer
 
-  FROM rdpanek/phantomjs:1.9.8
+  FROM rdpanek/casperjs:1.1-beta3
 
 ### Build
   `git clone https://github.com/rdpanek/docker_casperjs`
@@ -27,4 +27,5 @@
   `docker run --rm rdpanek/casperjs:1.1-beta3 /usr/bin/casperjs --version`
 
 ## Changelog
+- 1.2 added support for Phantomjs2.0
 - 1.1-beta3 first realese ( image [rdpanek/casperjs:1.1-beta3](https://registry.hub.docker.com/u/rdpanek/casperjs/) )

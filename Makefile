@@ -5,7 +5,7 @@
 
 
 NAME=rdpanek/casperjs
-VERSION=1.1-beta3
+VERSION=1.2
 
 
 default:
