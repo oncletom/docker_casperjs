@@ -3,14 +3,14 @@
 ## Contains
 
 * Ubuntu 14.04
-* phantomjs 1.9.8
+* phantomjs 2.0.0
 * casperjs 1.1-beta3
 * example test
 
 
 ## Usage in next layer
 
-  FROM rdpanek/phantomjs:1.9.8
+  FROM rdpanek/casperjs:1.1-beta3
 
 ### Build
   `git clone https://github.com/rdpanek/docker_casperjs`

@@ -1,7 +1,7 @@
 # A image with casperjs 1.1-beta3
 # For more information; https://github.com/rdpanek/docker_casperjs
 
-FROM rdpanek/phantomjs:1.9.8
+FROM rdpanek/phantomjs:2.0.0
 MAINTAINER Radim Daniel Pánek <rdpanek@gmail.com>
 
 # env
