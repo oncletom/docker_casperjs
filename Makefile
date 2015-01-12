@@ -25,3 +25,6 @@ tag:
 	git tag -d latest 2>&1 > /dev/null
 	git tag $(VERSION)
 	git tag latest
+
+push:
+	git push --tags origin master -f
