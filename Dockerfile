@@ -8,7 +8,7 @@ MAINTAINER Radim Daniel Pánek <rdpanek@gmail.com>
 # Commands
 RUN \
   mkdir -p /srv/var && \
-  git clone https://github.com/n1k0/casperjs /srv/var/casperjs && \
+  git clone https://github.com/rdpanek/casperjs /srv/var/casperjs && \
   cd /srv/var/casperjs  && git l -30 && \
   ln -s /srv/var/casperjs/bin/casperjs /usr/bin/casperjs
 
