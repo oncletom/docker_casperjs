@@ -9,7 +9,9 @@ MAINTAINER Radim Daniel Pánek <rdpanek@gmail.com>
 RUN \
   mkdir -p /srv/var && \
   git clone https://github.com/rdpanek/casperjs /srv/var/casperjs && \
-  cd /srv/var/casperjs  && git l -30 && \
+  cd /srv/var/casperjs && \
+  git ch -b develop  &&  git pull origin develop && \
+  git l -10 --no-color && \
   ln -s /srv/var/casperjs/bin/casperjs /usr/bin/casperjs
 
 # Default command
