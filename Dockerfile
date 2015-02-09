@@ -15,4 +15,4 @@ RUN \
   ln -s /srv/var/casperjs/bin/casperjs /usr/bin/casperjs
 
 # Default command
-CMD ["/usr/bin/casperjs"]
+ENTRYPOINT ["/usr/bin/casperjs"]
